@@ -27,7 +27,7 @@ set wildmenu
 colorscheme zenburn
 
 autocmd Filetype c setlocal expandtab tabstop=4 shiftwidth=4
-autocmd Filetype py 
+autocmd Filetype py
     \ setlocal tabstop=4
     \ setlocal softtabstop=4
     \ setlocal shiftwidth=4
@@ -60,7 +60,7 @@ autocmd! BufWritePost * Neomake
 
 let g:deoplete#enable_at_startup = 1
 let deoplete#tag#cache_limit_size = 500000000
-let g:deoplete#sources = {} 
+let g:deoplete#sources = {}
 let g:deoplete#sources.c = ['buffer', 'tag']
 
 "autocmd WinEnter term://* startinsert
